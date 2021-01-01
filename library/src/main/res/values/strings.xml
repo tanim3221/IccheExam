@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="notify_title">ইচ্ছে পরীক্ষা</string>
+    <string name="android_auto_update_dialog_title">নতুন সংস্করণ, আপডেট করুন</string>
+    <string name="android_auto_update_notify_ticker">নতুন সংস্করণ পেতে আপডেট ক্লিক করুন</string>
+    <string name="android_auto_update_dialog_btn_download"> আপডেট </string>
+    <string name="android_auto_update_toast_no_new_update"> কোনো নতুন আপডেট নাই </string>
+    <string name="android_auto_update_download_progress"> ডাউনলোড হচ্ছে %1$d%%</string>
+    <string name="android_auto_update_dialog_checking"> নতুন সংস্করণ খোঁজা হচ্ছে... </string>
+    <string name="android_auto_update_content"> ইচ্ছে পরীক্ষা </string>
+</resources>

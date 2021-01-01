@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "659206155303",
+    "project_id": "icche-exam",
+    "storage_bucket": "icche-exam.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:659206155303:android:54012770fad7e719abf202",
+        "android_client_info": {
+          "package_name": "com.icche.exam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "659206155303-2ikhdicmh8v0rp35vde880fotmubqhr3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQWqeAm4psz-SyyxiCG_NCfBBhnMYtrz4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "659206155303-2ikhdicmh8v0rp35vde880fotmubqhr3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

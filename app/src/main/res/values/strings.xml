@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">ইচ্ছে পরীক্ষা</string>
+    <string name="call_toast">কল অ্যাপ ওপেন হচ্ছে</string>
+    <string name="email_toast">ইমেইল অ্যাপ ওপেন হচ্ছে</string>
+    <string name="pdf_not_view">পিডিএফ ওপেন করার জন্য কোনো অ্যাপ নাই.</string>
+    <string name="facebook_view">ফেইসবুক অ্যাপ ওপেন হচ্ছে</string>
+    <string name="not_fb"> ফেইসবুক অ্যাপ ইন্সটল করা নাই </string>
+    <string name="connect_net"> সংযোগ বিচ্ছিন্ন </string>
+    <string name="fb_pro"> মোবাইল ডাটা অথবা ওয়াইফাই অন করুন. </string>
+    <string name="error_net"> মোবাইল ডাটা অথবা ওয়াইফাই অন করুন. </string>
+    <string name="email_dialog"> মোবাইল ডাটা অথবা ওয়াইফাই অন করুন. </string>
+    <string name="rudf_title">ইচ্ছে পরীক্ষা</string>
+    <string name="msg_feedback">প্রিয় ডেভেলপার,\n\n\n\n\n\n\n  ধন্যবাদ, </string>
+    <string name="feedbackMail">astanim.3221@gmail.com, aisfamilyru@gmail.com</string>
+    <string name="feedbacksub">ইচ্ছে পরীক্ষা ফিডব্যাক</string>
+    <string name="feedTitle">ফিডব্যাক</string>
+    <string name="cancel">বাতিল করুন</string>
+    <string name="retry_btn">আবার চেষ্টা করুন</string>
+
+
+    <string name="app_about_details">বিসিএস সহ সকল চাকরীর প্রশ্ন সম্বলিত একটি অ্যাপ। নিজের ইচ্ছে মতো প্রশ্ন তৈরী করে পরীক্ষা দিয়ে নিজেকে যাচাই করা যায়।</string>
+    <string name="initiative_app">ইচ্ছে এর একটি উদ্যাগ</string>
+    <string name="about_dev">সাকলায়েন আহমেদ</string>
+    <string name="dev_email">Email:\naisfamilyru@gmail.com</string>
+    <string name="dev_title">ডেভেলপার</string>
+    <string name="download">"ডাউনলোড হচ্ছে "</string>
+    <string name="later_btn">না</string>
+    <string name="download_file_btn">হ্যাঁ</string>
+    <string name="save_images">কিছুক্ষন অপেক্ষা করুন, ডাউনলোড হচ্ছে...</string>
+    <string name="save_img_title">সংরক্ষন করুন</string>
+    <string name="dismiss_snackbar">বাতিল করুন</string>
+    <string name="not_save_images">কিছু সমস্যা হচ্ছে, আবার চেষ্টা করুন।</string>
+    <string name="do_download">আপনি ডাউনলোড করতে ইচ্ছুক?</string>
+</resources>
