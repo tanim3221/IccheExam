@@ -351,6 +351,16 @@ public class WebviewActivityFile extends AppCompatActivity {
             webView.setVisibility(View.GONE);
             final WebSettings webSettings = webView.getSettings();
             webView.getSettings().setSupportZoom(false);
+
+            // Set User Agent
+            String userAgent = System.getProperty("http.agent");
+            webView.getSettings().setUserAgentString(userAgent + "ইচ্ছে অ্যাপ");
+
+            // Enable Cookies
+            CookieManager.getInstance().setAcceptCookie(true);
+            if(android.os.Build.VERSION.SDK_INT >= 21)
+                CookieManager.getInstance().setAcceptThirdPartyCookies(webView, true);
+
             webView.getSettings().setBuiltInZoomControls(false);
             webView.getSettings().setDisplayZoomControls(false);
             webView.getSettings().setLoadWithOverviewMode(true);
@@ -366,6 +376,7 @@ public class WebviewActivityFile extends AppCompatActivity {
             webView.setScrollBarStyle(WebView.SCROLLBARS_INSIDE_OVERLAY);
             webSettings.setLayoutAlgorithm(WebSettings.LayoutAlgorithm.SINGLE_COLUMN);
             webView.setScrollbarFadingEnabled(true);
+            webView.getSettings().setRenderPriority(WebSettings.RenderPriority.HIGH);
             if (isNetworkStatusAvialable(getApplicationContext())) {
                 webView.getSettings().setCacheMode(WebSettings.LOAD_DEFAULT);
             } else {

@@ -143,7 +143,8 @@ public class NotificationUtils {
                 notificationManager.createNotificationChannel(channel);
 
             }
-            notificationManager.notify(NOTIFICATION_ID, notification);
+            int id = (int) System.currentTimeMillis();
+            notificationManager.notify(id, notification);
         }
     }
 

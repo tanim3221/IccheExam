@@ -1,33 +1,87 @@
 {
   "project_info": {
-    "project_number": "659206155303",
-    "project_id": "icche-exam",
-    "storage_bucket": "icche-exam.appspot.com"
+    "project_number": "53289996673",
+    "firebase_url": "https://newspapericche.firebaseio.com",
+    "project_id": "newspapericche",
+    "storage_bucket": "newspapericche.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:659206155303:android:54012770fad7e719abf202",
+        "mobilesdk_app_id": "1:53289996673:android:53f14b5dc79510ba9c9880",
         "android_client_info": {
           "package_name": "com.icche.exam"
         }
       },
       "oauth_client": [
         {
-          "client_id": "659206155303-2ikhdicmh8v0rp35vde880fotmubqhr3.apps.googleusercontent.com",
+          "client_id": "53289996673-ebnfdbu92m1gnd5t779o2j5in7j3mhip.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.icche.exam",
+            "certificate_hash": "17d8d7979d9ea6122852fa1c5c1827e115b7bd12"
+          }
+        },
+        {
+          "client_id": "53289996673-hdvgjh4dutuqpq7ogrvc2k0tnobpitot.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAQWqeAm4psz-SyyxiCG_NCfBBhnMYtrz4"
+          "current_key": "AIzaSyBeAB4_dDY24K2aLN_Oe_bJtAtysmCprTk"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "659206155303-2ikhdicmh8v0rp35vde880fotmubqhr3.apps.googleusercontent.com",
+              "client_id": "53289996673-hdvgjh4dutuqpq7ogrvc2k0tnobpitot.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:53289996673:android:4d8b584db9487f7c9c9880",
+        "android_client_info": {
+          "package_name": "com.icche.newspaper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "53289996673-g39fj9du63ope75fmjfqjn92hr5sfl85.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.icche.newspaper",
+            "certificate_hash": "96aee2919b24dce08e5d60d81fa95005df3d04de"
+          }
+        },
+        {
+          "client_id": "53289996673-gclnh5ok0p5umnjp8sq03tut5jbahb4h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.icche.newspaper",
+            "certificate_hash": "1ce99d96d941da15324888810be7fcce4225a7c3"
+          }
+        },
+        {
+          "client_id": "53289996673-hdvgjh4dutuqpq7ogrvc2k0tnobpitot.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeAB4_dDY24K2aLN_Oe_bJtAtysmCprTk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "53289996673-hdvgjh4dutuqpq7ogrvc2k0tnobpitot.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
