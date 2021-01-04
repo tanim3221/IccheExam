@@ -11,8 +11,8 @@
       "type": "SINGLE",
       "filters": [],
       "properties": [],
-      "versionCode": 1,
-      "versionName": "icche.02012021",
+      "versionCode": 2,
+      "versionName": "icche.04012021",
       "enabled": true,
       "outputFile": "app-release.apk"
     }
