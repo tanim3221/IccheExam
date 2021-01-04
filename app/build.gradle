@@ -20,7 +20,7 @@ android {
         applicationId 'com.icche.exam'
         minSdkVersion 19
         targetSdkVersion 29
-        versionCode 2
+        versionCode 3
         versionName 'icche.04012021'
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         signingConfig signingConfigs.release

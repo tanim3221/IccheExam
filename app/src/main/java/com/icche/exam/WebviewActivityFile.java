@@ -467,43 +467,6 @@ public class WebviewActivityFile extends AppCompatActivity {
                                     .show();
                         }
                         return true;
-                    } else if (url.startsWith("https://web.facebook.com") || url.startsWith("https://www.facebook.com") || url.startsWith("https://m.me") || url.startsWith("https://facebook.com") || url.startsWith("https://m.facebook.com") || url.startsWith("https://mobile.facebook.com") || url.startsWith("fb:")) {
-                        String urlReplace = url;
-                        String url_view;
-                        urlReplace = urlReplace.replaceAll("https://facebook.com/|https://m.facebook.com/|https://www.facebook.com/|https://mobile.facebook.com/|https://www.facebook.com/profile.php?id=|https://m.facebook.com/profile.php?id=|https://web.facebook.com/profile.php?id=|https://web.facebook.com/|https://m.me/", "");
-
-                        if (url.startsWith("https://m.me")) {
-                            url_view = "https://m.me/" + urlReplace;
-                        } else {
-                            url_view = "fb://facewebmodal/f?href=https://www.facebook.com/" + urlReplace;
-                        }
-
-                        if (isNetworkStatusAvialable(getApplicationContext())) {
-                            if (isAppInstalled(liContext, "com.facebook.lite") || isAppInstalled(liContext, "com.facebook.mlite") || isAppInstalled(liContext, "com.facebook.orca") || isAppInstalled(liContext, "com.facebook.katana")
-                                    || isAppInstalled(liContext, "com.example.facebook") || isAppInstalled(liContext, "com.facebook.android")) {
-                                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url_view));
-                                startActivity(intent);
-                                Toast.makeText(getApplicationContext(), (getString(R.string.facebook_view)), Toast.LENGTH_LONG).show();
-                                // Toast.makeText(getApplicationContext(), (url_view),Toast.LENGTH_LONG).show();
-                            } else {
-                                Toast.makeText(getApplicationContext(), (getString(R.string.not_fb)),
-                                        Toast.LENGTH_LONG).show();
-                            }
-
-                        } else {
-                            String titleText = getString(R.string.fb_pro);
-                            ForegroundColorSpan foregroundColorSpan = new ForegroundColorSpan(Color.rgb(140, 140, 140));
-                            SpannableStringBuilder color = new SpannableStringBuilder(titleText);
-                            color.setSpan(foregroundColorSpan, 0, titleText.length(), Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
-                            AlertDialog.Builder builder = new AlertDialog.Builder(WebviewActivityFile.this);
-                            builder.setTitle(getString(R.string.connect_net))
-                                    .setMessage(color)
-                                    /*  .setNegativeButton(getString(R.string.ok_btn), null)*/
-                                    .setCancelable(true)
-                                    .show();
-                        }
-                        return true;
-                   // } else  if (!url.startsWith(load_url) || !url.contains(load_url_s) || !url.contains(load_url_w) || !url.contains(load_url_s_w)) {
                     }
                     /*else  if (!url.contains(load_url_s)) {
                         //view.getContext().startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(url)));
